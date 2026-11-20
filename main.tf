@@ -5,5 +5,6 @@ resource "aws_s3_bucket" "project_bucket" {
   Name        = "Project6Bucket"
   Environment = "Development"
   Owner       = "Terraform"
+  CostCenter  = "CC1001"
 }
 }
